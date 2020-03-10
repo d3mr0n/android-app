@@ -15,6 +15,8 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
+import fr.gaulupeau.apps.Poche.service.tasks.SimpleTask;
+
 public class TaskService extends Service {
 
     public static final String ACTION_SIMPLE_TASK = "action_simple_task";
